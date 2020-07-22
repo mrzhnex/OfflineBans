@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace OfflineBans
 {
-    internal class SetEvents
+    public class SetEvents
     {
         private string GetUsageAtBan()
         {
@@ -22,6 +22,7 @@ namespace OfflineBans
 
             if (args.Length > 0 && args[0].ToLower() == "atban")
             {
+                ev.Allow = false;
                 if (args.Length < 3 || args.Length > 4)
                 {
                     ev.Sender.RAMessage("Out of args." + GetUsageAtBan());
