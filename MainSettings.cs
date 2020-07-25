@@ -1,24 +1,22 @@
-﻿using EXILED;
+﻿using Exiled.API.Features;
 
 namespace OfflineBans
 {
-    public class MainSettings : Plugin
+    public class MainSettings : Plugin<Config>
     {
-        public override string getName => nameof(OfflineBans);
+        public override string Name => nameof(OfflineBans);
         public SetEvents SetEvents { get; set; }
-        public override void OnEnable()
+        public override void OnEnabled()
         {
             SetEvents = new SetEvents();
-            Events.RemoteAdminCommandEvent += SetEvents.OnRemoteAdminCommand;
-            Log.Info(getName + " on");
+            Exiled.Events.Handlers.Server.SendingRemoteAdminCommand += SetEvents.OnSendingRemoteAdminCommand;
+            Log.Info(Name + " on");
         }
 
-        public override void OnDisable()
+        public override void OnDisabled()
         {
-            Events.RemoteAdminCommandEvent -= SetEvents.OnRemoteAdminCommand;
-            Log.Info(getName + " off");
+            Exiled.Events.Handlers.Server.SendingRemoteAdminCommand -= SetEvents.OnSendingRemoteAdminCommand;
+            Log.Info(Name + " off");
         }
-
-        public override void OnReload() { }
     }
 }

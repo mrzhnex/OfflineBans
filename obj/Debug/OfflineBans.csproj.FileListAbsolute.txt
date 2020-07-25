@@ -1,10 +1,6 @@
 E:\SCP SL plugins\OfflineBans\bin\Debug\OfflineBans.dll
 E:\SCP SL plugins\OfflineBans\bin\Debug\OfflineBans.pdb
 E:\SCP SL plugins\OfflineBans\bin\Debug\Assembly-CSharp.dll
-E:\SCP SL plugins\OfflineBans\bin\Debug\EXILED.dll
-E:\SCP SL plugins\OfflineBans\bin\Debug\EXILED_Events.dll
-E:\SCP SL plugins\OfflineBans\bin\Debug\EXILED_Idler.dll
-E:\SCP SL plugins\OfflineBans\bin\Debug\EXILED_Permissions.dll
 E:\SCP SL plugins\OfflineBans\bin\Debug\UnityEngine.CoreModule.dll
 E:\SCP SL plugins\OfflineBans\bin\Debug\UnityEngine.dll
 E:\SCP SL plugins\OfflineBans\bin\Debug\UnityEngine.PhysicsModule.dll
@@ -56,7 +52,6 @@ E:\SCP SL plugins\OfflineBans\bin\Debug\UnityEngine.SpriteShapeModule.dll
 E:\SCP SL plugins\OfflineBans\bin\Debug\UnityEngine.UIElementsModule.dll
 E:\SCP SL plugins\OfflineBans\bin\Debug\UnityEngine.VehiclesModule.dll
 E:\SCP SL plugins\OfflineBans\bin\Debug\UnityEngine.WindModule.dll
-E:\SCP SL plugins\OfflineBans\bin\Debug\UnityEngine.ARModule.dll
 E:\SCP SL plugins\OfflineBans\bin\Debug\UnityEngine.XRModule.dll
 E:\SCP SL plugins\OfflineBans\bin\Debug\UnityEngine.InputModule.dll
 E:\SCP SL plugins\OfflineBans\obj\Debug\OfflineBans.csprojAssemblyReference.cache
@@ -64,3 +59,18 @@ E:\SCP SL plugins\OfflineBans\obj\Debug\OfflineBans.csproj.CoreCompileInputs.cac
 E:\SCP SL plugins\OfflineBans\obj\Debug\OfflineBans.csproj.CopyComplete
 E:\SCP SL plugins\OfflineBans\obj\Debug\OfflineBans.dll
 E:\SCP SL plugins\OfflineBans\obj\Debug\OfflineBans.pdb
+E:\SCP SL plugins\OfflineBans\bin\Debug\Exiled.API.dll
+E:\SCP SL plugins\OfflineBans\bin\Debug\Exiled.Events.dll
+E:\SCP SL plugins\OfflineBans\bin\Debug\Mirror.dll
+E:\SCP SL plugins\OfflineBans\bin\Debug\DissonanceVoip.dll
+E:\SCP SL plugins\OfflineBans\bin\Debug\UnityEngine.UI.dll
+E:\SCP SL plugins\OfflineBans\bin\Debug\Unity.TextMeshPro.dll
+E:\SCP SL plugins\OfflineBans\bin\Debug\Facepunch.Steamworks.Win64.dll
+E:\SCP SL plugins\OfflineBans\bin\Debug\Assembly-CSharp-firstpass.dll
+E:\SCP SL plugins\OfflineBans\bin\Debug\BouncyCastle.Crypto.dll
+E:\SCP SL plugins\OfflineBans\bin\Debug\Mono.Nat.dll
+E:\SCP SL plugins\OfflineBans\bin\Debug\CommandSystem.Core.dll
+E:\SCP SL plugins\OfflineBans\bin\Debug\CloudflareSolverRe.dll
+E:\SCP SL plugins\OfflineBans\bin\Debug\zxing.unity.dll
+E:\SCP SL plugins\OfflineBans\bin\Debug\System.Buffers.dll
+E:\SCP SL plugins\OfflineBans\bin\Debug\System.Memory.dll
